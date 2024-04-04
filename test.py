@@ -23,7 +23,28 @@ from datasets.pollen import make_pollen_transforms
 import matplotlib.pyplot as plt
 import time
 
-CLASSES = []
+CLASSES = [
+    'buckwheat',
+    'clover',
+    'angelica',
+    'angelica_garden',
+    'willow',
+    'hill_mustard',
+    'linden',
+    'meadow_pink',
+    'alder',
+    'birch',
+    'fireweed',
+    'nettle',
+    'pigweed',
+    'plantain',
+    'sorrel',
+    'grass',
+    'pine',
+    'maple',
+    'hazel',
+    'mugwort'
+]
 
 
 def box_cxcywh_to_xyxy(x):
